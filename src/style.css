@@ -1,0 +1,46 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #ecf0f1;
+  color: #2c3e50;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+nav {
+  padding: 15px;
+  background-color: #34495e;
+  text-align: center;
+  border-bottom: 4px solid #2c3e50;
+}
+
+nav a {
+  margin: 0 20px;
+  color: #ecf0f1;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  color: #bdc3c7;
+}
+
+.main-content {
+  padding: 20px;
+  text-align: center;
+}
+
+/* Container Styles */
+.details-container,
+.form-container,
+.contact-list {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
